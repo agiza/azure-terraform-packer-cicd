@@ -1,1 +1,1 @@
-This is Azure Terraform / Packer CI/CD - Sample
+This is Azure Terraform / Packer CI/CD - Sample with step by step example
