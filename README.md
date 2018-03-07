@@ -37,8 +37,8 @@ terraform init
 
 For ubuntu image run
 
-./deploy.sh (for unbuntu image)
+./deploy.sh 
  
 For CentOS image run 
 
-centos-tf/deploy-centos.sh (for centos image)
+centos-tf/deploy-centos.sh
