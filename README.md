@@ -34,7 +34,11 @@ export TF_VAR_ssh_key_path=\<local path to ssh public key from step 4 /home/user
 # Step 6 
 terraform init 
 # Step 7
-run 
+
+For ubuntu image run
+
 ./deploy.sh (for unbuntu image)
-run 
+ 
+For CentOS image run 
+
 centos-tf/deploy-centos.sh (for centos image)
