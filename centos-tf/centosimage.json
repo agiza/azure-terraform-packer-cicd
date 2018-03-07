@@ -37,7 +37,7 @@
     "provisioners": [{
       "execute_command": "chmod +x {{ .Path }}; {{ .Vars }} sudo -E sh '{{ .Path }}'",
       "inline": [
-        "yum install -y",
+        "yum install epel-release -y",
         "yum install nginx -y",
         "systemctl start nginx",
         "mkdir /usr/local/test",
