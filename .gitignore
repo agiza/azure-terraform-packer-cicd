@@ -6,3 +6,6 @@ terraform
 .terraform/
 rsaz-putty-pubkey-new
 azure-terraform-packer-cicd.zip
+centos-tf/.terraform/
+centos-tf/terraform.tfstate
+centos-tf/terraform.tfstate.backup
