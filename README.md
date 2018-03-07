@@ -31,7 +31,7 @@ export TF_VAR_resource_group_name=<your azure resource group from Step3>
 
 export TF_VAR_ssh_key_path=<local path to ssh public key from step 4 /home/user/ssh_pub.key>
 
-# Step 8 
+# Step 6 
 terraform init 
 # Step 7
 run 
