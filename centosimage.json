@@ -19,7 +19,7 @@
       "location": "{{user `location`}}",
   
       "managed_image_resource_group_name": "{{user `resource_group_name`}}",
-      "managed_image_name": "centosmaster74",
+      "managed_image_name": "centosmaster73",
   
       "os_type": "Linux",
       "image_publisher": "OpenLogic",
@@ -37,9 +37,6 @@
     "provisioners": [{
       "execute_command": "chmod +x {{ .Path }}; {{ .Vars }} sudo -E sh '{{ .Path }}'",
       "inline": [
-        "yum install cloud-init -y",
-        "yum check-update cloud-init -y",
-        "yum install epel-release -y",
         "yum install -y",
         "yum install nginx -y",
         "systemctl start nginx",
